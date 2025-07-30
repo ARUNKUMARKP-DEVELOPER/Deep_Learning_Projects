@@ -1,7 +1,5 @@
 # 🌦️ Weather Classification using Deep Learning
 
-![Weather Classification](https://storage.needpix.com/rsynced_images/weather-4055272_1280.jpg)
-
 This project focuses on classifying weather conditions from images into four categories — **Sunrise, Shine, Rain, and Cloudy** — using both custom Convolutional Neural Networks (CNNs) and popular pre-trained models (VGG16, ResNet50, and MobileNetV2). The primary goal is to build and compare deep learning models for real-world weather classification tasks.
 
 ## 📁 Dataset
