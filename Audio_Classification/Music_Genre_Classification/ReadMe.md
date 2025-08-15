@@ -24,6 +24,12 @@ Classify 30-second `.wav` audio clips into one of the following 10 genres:
 
 ---
 
+## Result
+
+![Result](screenshots/output.png)
+
+---
+
 ## Dataset
 
 * **Source**: [GTZAN Music Genre Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data)
@@ -96,3 +102,4 @@ The model performs consistently well across training and validation, demonstrati
 
 
 ---
+
