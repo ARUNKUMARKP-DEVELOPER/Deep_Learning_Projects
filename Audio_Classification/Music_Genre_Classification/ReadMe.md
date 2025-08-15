@@ -1,30 +1,30 @@
 # 🎵 Music Genre Classification using CNN and MFCC Features
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to classify audio files into one of 10 music genres using deep learning techniques. Leveraging the [GTZAN Music Genre Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data), we apply feature extraction techniques (MFCC) and train a Convolutional Neural Network (CNN) to accurately identify the genre of unseen audio samples.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Classify 30-second `.wav` audio clips into one of the following 10 genres:
 
-* 🎸 Blues
-* 🎼 Classical
-* 🤠 Country
-* 💃 Disco
-* 🎤 HipHop
-* 🎷 Jazz
-* 🤘 Metal
-* 🎧 Pop
-* 🇯🇲 Reggae
-* 🎸 Rock
+* Blues
+* Classical
+* Country
+* Disco
+* HipHop
+* Jazz
+* Metal
+* Pop
+* Reggae
+* Rock
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 * **Source**: [GTZAN Music Genre Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data)
 * **Format**: WAV files (30 seconds each)
@@ -33,7 +33,7 @@ Classify 30-second `.wav` audio clips into one of the following 10 genres:
 
 ---
 
-## 🧠 Technologies & Tools Used
+## Technologies & Tools Used
 
 | Category          | Libraries/Tools                       |
 | ----------------- | ------------------------------------- |
@@ -45,7 +45,7 @@ Classify 30-second `.wav` audio clips into one of the following 10 genres:
 
 ---
 
-## 🔍 Approach
+## Approach
 
 ### 1. **Preprocessing**
 
@@ -75,7 +75,7 @@ Conv2D ➝ MaxPooling ➝ BatchNorm ➝ Conv2D ➝ MaxPooling ➝ BatchNorm ➝ 
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric              | Value   |
 | ------------------- | ------- |
@@ -87,11 +87,12 @@ The model performs consistently well across training and validation, demonstrati
 
 ---
 
-## ✅ Future Improvements
+## Future Improvements
 
 * Use Mel Spectrograms or Chroma Features
 * Try more complex models (ResNet, CRNN)
 * Implement audio augmentation (pitch shift, time stretch)
 * Deploy as a web app for real-time genre classification
+
 
 ---
