@@ -2,6 +2,14 @@
 
 This project focuses on classifying weather conditions from images into four categories — **Sunrise, Shine, Rain, and Cloudy** — using both custom Convolutional Neural Networks (CNNs) and popular pre-trained models (VGG16, ResNet50, and MobileNetV2). The primary goal is to build and compare deep learning models for real-world weather classification tasks.
 
+---
+
+## Sample Predictions
+
+![Sample Predictions](screenshots/output.png)
+
+---
+
 ## 📁 Dataset
 
 - **Source**: [Mendeley Weather Image Dataset](https://data.mendeley.com/datasets/4drtyfjtfy/1)
@@ -97,3 +105,4 @@ pip install -r requirements.txt
 
 # Run the notebook
 jupyter notebook Weather_Classification.ipynb
+
