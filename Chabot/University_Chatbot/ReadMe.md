@@ -4,6 +4,12 @@ A BERT-powered intelligent chatbot that answers university-related queries by cl
 
 ---
 
+## Result
+
+![Chat Results](screenshots/output.png)
+
+---
+
 ## 📂 Dataset
 
 - **Source**: [Kaggle - Chatbot Dataset](https://www.kaggle.com/datasets/niraliivaghani/chatbot-dataset/data?select=intents.json)
@@ -84,5 +90,6 @@ To develop a university domain-specific chatbot capable of:
 | F1 Score    | 99.85%       | 92.64%    |
 | Precision   | 99.84%       | 94.09%    |
 | Recall      | 99.86%       | 94.03%    |
+
 
 ---
