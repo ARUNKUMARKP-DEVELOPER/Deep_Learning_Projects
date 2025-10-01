@@ -6,6 +6,12 @@ This project demonstrates an application of deep learning in **video classificat
 
 ---
 
+## Model Results
+
+![Model Results](Screenshot.png)
+
+---
+
 ## 📁 Dataset
 
 **Source**: [Kaggle - Movie Fight Detection Dataset](https://www.kaggle.com/datasets/naveenk903/movies-fight-detection-dataset/data?select=Peliculas)
@@ -63,5 +69,6 @@ The model is based on the **ViViT (Video Vision Transformer)**, an advanced tran
 7. **Visualize Predictions** using GIFs and model outputs.
 8. **Save and Reload Model** for inference.
 9. **Predict Custom Video Input** using saved `.keras` model.
+
 
 ---
